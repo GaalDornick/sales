@@ -35,6 +35,7 @@ object Main {
 
     LaggingDepartments.run(transactions).print()
     ShootingStars.run(transactions).print()
+    RegisterTracker.run(transactions).print()
 
     ssc.start()             // Start the computation
     ssc.awaitTermination()  // Wait for the computation to terminate
